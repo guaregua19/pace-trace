@@ -12,6 +12,21 @@ npm install pace-trace
 
 # Usage
 
+```typescript
+import PaceTrace from 'pace-trace';
+
+// Initialize the progress bar with a total of 100 and default options
+const progressBar = new PaceTrace(100);
+
+// Perform a loop that increments the progress bar
+for (let i = 0; i <= 100; i++) {
+  progressBar.increment();
+  console.log(progressBar.display());
+}
+
+console.log('Task completed!');
+```
+
 ```javascript
 const PaceTrace = require('pace-trace').default;
 
