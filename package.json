@@ -8,7 +8,16 @@
     "test:coverage": "jest --coverage",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "progress",
+    "loader",
+    "console loader",
+    "bar",
+    "cli",
+    "command-line",
+    "terminal",
+    "visualization"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
