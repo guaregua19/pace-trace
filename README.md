@@ -2,7 +2,7 @@
 
 A customizable progress bar for Node.js command-line applications.
 
-![PaceTrace](logo.png) <!-- replace with your logo image link -->
+![PaceTrace](https://raw.githubusercontent.com/guaregua19/pace-trace/master/logo.png) <!-- replace with your logo image link -->
 
 ## Installation
 
