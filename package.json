@@ -1,6 +1,6 @@
 {
   "name": "pace-trace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/progress-bar.js",
   "scripts": {
     "test": "jest",
