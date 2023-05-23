@@ -4,6 +4,10 @@ A customizable progress bar for Node.js command-line applications.
 
 ![PaceTrace](https://raw.githubusercontent.com/guaregua19/pace-trace/master/logo.png) <!-- replace with your logo image link -->
 
+## Repo
+
+[See on Github](https://github.com/guaregua19/pace-trace)
+
 ## Installation
 
 ```bash
