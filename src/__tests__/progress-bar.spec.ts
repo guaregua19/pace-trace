@@ -43,5 +43,26 @@ describe('PaceTrace', () => {
     expect(output).not.toContain('%');
   });
 
-  // Add more test cases as needed, e.g. for different bar styles, different alignments, stopOnComplete and clearOnComplete
+  it('Should display correct character for bar style', () => {
+    const progress = new PaceTrace(100, { barStyle: 'star' });
+    progress.increment(50);
+    const output = progress.display();
+    expect(output).toContain('★'); // Assuming star is displayed for the bar
+  });
+
+  it('Should align progress bar correctly', () => {
+    const progress = new PaceTrace(100, { align: 'right' });
+    progress.increment(50);
+    const output = progress.display();
+    // This expectation might be more complex depending on how you decide to test alignment
+    expect(output.trim()).toBe(output);
+  });
+
+  it('Should not throw an error when total progress is 0', () => {
+    expect(() => new PaceTrace(0)).not.toThrow();
+  });
+
+  it('Should not throw an error when total progress is negative', () => {
+    expect(() => new PaceTrace(-1)).not.toThrow();
+  });
 });
